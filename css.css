@@ -1,0 +1,213 @@
+  body {
+    margin: 0;
+    height: 100%;
+    color: #ECF0F1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #2C3E50;
+  }
+
+  #largeTitle{
+    font-size: 2.8em;
+  }
+
+  #page-content-wrapper{
+    position: absolute;
+    left: 0;
+    margin-left: 40%;
+    width: 50%;
+    z-index: 100;
+    margin-right: 30%;
+    padding-top: 5%;
+  }
+
+  #leftSidemenu {
+    min-width: 400px;
+    background: #24272A;
+    top: 0;
+    left: 0;
+    padding-left: 4%;
+    position: fixed;
+    font-size: 2.8em;
+    color: #ECF0F1;
+    font-weight: bold;
+    font-size-adjust: auto;
+    font-stretch: expanded;
+    max-width: 30%;
+    height: 100%;
+  }
+
+  .sideMenuPosition{
+    width: 100%;
+  }
+  .menuContent:hover{
+    transition: color 0.2s ease-in-out;
+    color: #E74C3C;
+    transform: skew(-10deg) scale(1) translate(0, 0);
+    }
+  #headerContent:hover{
+    transform: skew(-10deg) scale(1) translate(0, 0);
+    transition: color 0.2s ease-in-out;
+    color: #E74C3C;
+  }
+  #sideMenuFirst{
+    font-size: 1.8em;
+    line-height: 1;
+  }
+
+  .menuContent{
+    padding-top: 40px;
+  }
+  #headerContent{
+    padding-top: 40px;
+  }
+
+  div img:hover{
+    color: #2C3E50;
+  }
+
+  highlight{
+    color: #E74C3C;
+  }
+  homeText{
+    font-size: 3em;
+  }
+  #portfolio{
+    margin-top: 10%;
+    width: 90%;
+  }
+
+  .portfolioContainer{
+    background: #24272A;
+    /*border: 2px solid #E74C3C;*/
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+  }
+
+  form {
+      max-width: 700px;
+  }
+
+  input.btn.btn-default {
+      width: 120px;
+  }
+
+  form textarea {
+      max-width: 700px;
+  }
+
+  #menuButton{
+    display: none;
+  }
+
+  .portfolioContainer a {
+    font-size: 1.5em;
+    color: #ECF0F1;
+    padding: 10px;
+
+  }
+  #portfolio span{
+    font-size: 2em;
+  }
+  
+@media (max-width:1300px){
+  #leftSidemenu {
+    position: fixed;
+    font-size: 2em;
+    width: 100%;
+    max-width: 100%;
+    height: 7%;
+    max-height: 7%;
+    min-height: 60px;
+    overflow: hidden;
+  }
+  #headerContent{
+    padding-top: 5px;
+  }
+
+  #menuButton{
+    display: block;
+    right: 15px;
+    top: 5px;
+    position: absolute;
+  }
+  #page-content-wrapper {
+    padding-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+    width: 90%;
+    z-index: -100;
+}
+#menuContent{
+  padding-left: 10%;
+  font-size: 2em;
+  display: none;
+  background: #24272A;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+}
+@media (max-width:600px){
+  #leftSidemenu {
+    position: fixed;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+    height: 7%;
+    max-height: 7%;
+    min-height: 60px;
+    overflow: hidden;
+  }
+  #sideMenuFirst{
+    width: 100%;
+  }
+  #headerContent{
+    padding-top: 5px;
+    width: 40%;
+  }
+
+  #menuButton{
+    font-size: 1em;
+    display: block;
+    right: 15px;
+    top: 5px;
+    position: absolute;
+  }
+  #page-content-wrapper {
+    width: 80%;
+    padding-top: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 0.5em;
+    position: relative;
+    z-index: -100;
+  }
+  #menuContent{
+    font-size: 1em;
+    padding-left: 10%;
+    font-size: 2em;
+    display: none;
+    background: #24272A;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width:500px){
+  #menuButton{
+    left: 400px;
+  }
+}
+
+@media (max-width:400px){
+  #menuButton{
+    left: 280px;
+  }
+}
